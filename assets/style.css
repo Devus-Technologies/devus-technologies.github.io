@@ -1,0 +1,32 @@
+:root{--sky:#a8dcfb;--ink:#1f2433;--paper:#fff;--orange:#ff8a3a;--accent:#b8400b;--muted:#4a5266}
+@media (prefers-color-scheme:dark){:root{--sky:#14263a;--ink:#eef2fa;--paper:#1d2a3d;--orange:#ff8a3a;--accent:#ffb27a;--muted:#b9c3d6}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--sky);color:var(--ink);font:18px/1.6 Nunito,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.top{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:12px 16px;max-width:900px;margin:0 auto}
+.brand{display:flex;gap:10px;align-items:center;font-weight:800;font-size:1.25rem;color:var(--ink);text-decoration:none}
+.brand img{border-radius:10px}
+nav a{margin-left:14px;color:var(--ink);font-weight:700}
+main{max-width:900px;margin:8px auto 24px;padding:20px 20px 28px;background:var(--paper);border:3px solid var(--ink);border-radius:18px;box-shadow:0 6px 0 var(--ink)}
+@media(max-width:940px){main{margin-left:12px;margin-right:12px}}
+h1,h2,h3{line-height:1.25}
+h1{font-size:1.9rem;margin-top:.2em}
+h2{font-size:1.35rem;margin-top:1.6em;border-bottom:3px solid var(--sky);padding-bottom:.2em}
+a{color:var(--accent)}
+img{max-width:100%;height:auto}
+table{border-collapse:collapse;display:block;overflow-x:auto;margin:1em 0}
+th,td{border:2px solid var(--ink);padding:6px 10px;text-align:left;vertical-align:top}
+th{background:var(--sky);color:#1f2433}
+.btn{display:inline-block;background:var(--orange);color:#1f2433;font-weight:800;text-decoration:none;padding:10px 18px;border:3px solid var(--ink);border-radius:14px;box-shadow:0 4px 0 var(--ink);margin:4px 8px 8px 0}
+.lang{display:flex;gap:8px;margin-bottom:8px}
+.lang button{font:inherit;font-weight:800;padding:4px 14px;border:3px solid var(--ink);border-radius:12px;background:var(--paper);color:var(--ink);cursor:pointer}
+.lang button[aria-pressed=true]{background:var(--orange);color:#1f2433}
+.hero img{border:3px solid var(--ink);border-radius:12px}
+.note{color:var(--muted);font-size:.95rem}
+footer{max-width:900px;margin:0 auto;padding:0 20px 28px;color:var(--ink);font-size:.9rem}
+body.js [data-l]{display:none}
+body.js.en [data-l=en],body.js.fr [data-l=fr]{display:block}
+.cards{display:grid;gap:14px;margin:18px 0}
+.card{display:flex;gap:16px;align-items:center;padding:14px;color:var(--ink);text-decoration:none;border:3px solid var(--ink);border-radius:16px;box-shadow:0 4px 0 var(--ink);background:var(--paper)}
+.card img{border-radius:18px;flex:none}
+.card strong{display:block;font-size:1.25rem}
+.card:hover,.card:focus-visible{background:var(--sky)}

@@ -1,0 +1,4 @@
+# Copy this file to the root of the developer website declared in Google Play
+# (https://<your domain>/app-ads.txt) and replace pub-0000000000000000 with your AdMob publisher id
+# (AdMob > Settings > Account information). Keep the line below exactly as AdMob shows it.
+google.com, pub-5531689233388485, DIRECT, f08c47fec0942fa0

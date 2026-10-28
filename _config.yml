@@ -1,0 +1,6 @@
+title: Devus Technologies
+description: Apps and games by Devus Technologies
+url: https://devus-technologies.github.io
+markdown: kramdown
+exclude:
+  - README.md
