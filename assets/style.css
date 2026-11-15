@@ -29,4 +29,14 @@ body.js.en [data-l=en],body.js.fr [data-l=fr]{display:block}
 .card{display:flex;gap:16px;align-items:center;padding:14px;color:var(--ink);text-decoration:none;border:3px solid var(--ink);border-radius:16px;box-shadow:0 4px 0 var(--ink);background:var(--paper)}
 .card img{border-radius:18px;flex:none}
 .card strong{display:block;font-size:1.25rem}
-.card:hover,.card:focus-visible{background:var(--sky)}
+.card strong a{color:var(--ink);text-decoration:none}
+.card strong a:hover{text-decoration:underline}
+.card .links{margin-top:8px}
+body.js.en .card .links[data-l=en],body.js.fr .card .links[data-l=fr]{display:flex}
+.links{display:flex;flex-wrap:wrap;gap:0}
+.btn.alt{background:var(--paper);color:var(--ink)}
+.btn.big{font-size:1.15rem;padding:12px 24px}
+.btn:hover{filter:brightness(1.06)}
+.store{display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px}
+.store .btn{margin-right:0}
+@media(max-width:520px){.card{flex-direction:column;align-items:flex-start}}
