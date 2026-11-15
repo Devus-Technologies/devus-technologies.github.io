@@ -33,10 +33,12 @@ body.js.en [data-l=en],body.js.fr [data-l=fr]{display:block}
 .card strong a:hover{text-decoration:underline}
 .card .links{margin-top:8px}
 body.js.en .card .links[data-l=en],body.js.fr .card .links[data-l=fr]{display:flex}
-.links{display:flex;flex-wrap:wrap;gap:0}
+.links{display:flex;flex-wrap:wrap;align-items:center;gap:0}
 .btn.alt{background:var(--paper);color:var(--ink)}
-.btn.big{font-size:1.15rem;padding:12px 24px}
 .btn:hover{filter:brightness(1.06)}
 .store{display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px}
-.store .btn{margin-right:0}
+.play{display:inline-block;margin:4px 12px 8px 0;line-height:0;border-radius:10px}
+.play img{display:block;height:56px;width:auto}
+.store .play{margin-right:0}
+.store .play img{height:64px}
 @media(max-width:520px){.card{flex-direction:column;align-items:flex-start}}
