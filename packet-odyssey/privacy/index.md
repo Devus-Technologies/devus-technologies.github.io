@@ -6,7 +6,7 @@ lang: en
 
 # Packet Odyssey – Privacy policy
 
-*Last updated: 28/10/2026* — [Version française plus bas](#fr)
+*Last updated: 16/11/2026* — [Version française plus bas](#fr)
 
 Packet Odyssey ("the game") is an educational game published by Devus Technologies ("we").
 Contact: erci.david.anderson@gmail.com
@@ -21,6 +21,31 @@ Contact: erci.david.anderson@gmail.com
 - The game shows ads (Google AdMob). In the European Economic Area, the United Kingdom and Switzerland,
   you are asked for your consent first, and you can change your choice at any time in
   Settings > Privacy and ad choices.
+
+## Windows version (Microsoft Store)
+
+The Windows version has no statistics, no crash reports and no ads, and it makes no network
+request (its levels come with it) unless you join a class (below). Your progress, networks, levels and settings
+are stored in your Windows user folder (`%LOCALAPPDATA%`) and removed when you uninstall the game;
+you can export them to a file yourself (Settings > Backup). The game is bought once in the Microsoft
+Store: payment and licence are handled by Microsoft, which never gives us your payment details (see
+the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement)). The sections
+below about Google services, Packet Odyssey+ purchases and ads only concern the Android app.
+
+### Classroom mode (Windows version)
+
+If you join a class with the code your teacher gives you (Settings > Classroom mode), the game
+creates an anonymous account (no e-mail, no password) with Firebase Authentication and sends to
+Cloud Firestore, in your teacher's class: the pseudonym you choose and, for each level you finish,
+your best result (stars, actions, time, hints used). It reads the session your teacher sets (chapters
+of the day, hints, deadline) about once a minute while the game is shown. Only your teacher sees
+your pseudonym and results; other students do not. Nothing else is sent: not your name, not your
+networks or levels. Your teacher, signed in with a Google account on the teacher dashboard, can
+remove you or delete the class, which deletes your pseudonym and results. Leaving the class in the
+game stops all sending. The school or teacher who uses classroom mode decides why these data are
+processed (to follow the class's work) and keeps them until the class is deleted, at the latest at
+the end of the school year; Google acts as processor (Firebase, servers in the European Union when
+the project is created there). Please use a pseudonym, not your full name.
 
 ## Data stored on your device
 
@@ -44,6 +69,16 @@ The game uses services from Google. Their processing is described in
 
 We never send the content of your networks or levels, and we never sell personal data.
 Analytics data is kept for 2 months; crash reports for 90 days.
+
+## Purchases (Packet Odyssey+)
+
+Optional one-time purchases (no ads, packs of advanced levels) go through Google Play. Payment is
+handled entirely by Google: we never see your payment details, name or e-mail address. The game
+asks Google Play which products your Google account owns, keeps that list on your device so it
+works offline, and checks it again at each launch. With "No ads", the advertising service is not
+started at all. Google's processing is described in the
+[Google Play terms](https://play.google.com/about/play-terms/) and
+[Google's privacy policy](https://policies.google.com/privacy).
 
 ## Ads
 
@@ -101,7 +136,7 @@ We will update this page if the game's data practices change, and update the dat
 # Packet Odyssey – Politique de confidentialité
 {: #fr}
 
-*Dernière mise à jour : 28/10/2026*
+*Dernière mise à jour : 16/11/2026*
 
 Packet Odyssey (« le jeu ») est un jeu éducatif publié par Devus Technologies (« nous »).
 Contact : erci.david.anderson@gmail.com
@@ -117,6 +152,34 @@ Contact : erci.david.anderson@gmail.com
 - Le jeu affiche des publicités (Google AdMob). Dans l'Espace économique européen, au Royaume-Uni et
   en Suisse, ton consentement est demandé d'abord, et tu peux changer ton choix à tout moment dans
   Paramètres > Confidentialité et choix publicitaires.
+
+## Version Windows (Microsoft Store)
+
+La version Windows n'a ni statistiques, ni rapports de plantage, ni publicités, et ne fait aucune
+requête réseau (ses niveaux sont fournis avec elle), sauf si tu rejoins une classe (ci-dessous). Ta progression, tes
+réseaux, tes niveaux et tes réglages sont stockés dans ton dossier d'utilisateur Windows
+(`%LOCALAPPDATA%`) et supprimés quand tu désinstalles le jeu ; tu peux les exporter toi-même dans un
+fichier (Réglages > Sauvegarde). Le jeu s'achète une fois dans le Microsoft Store : le paiement et la
+licence sont gérés par Microsoft, qui ne nous transmet jamais tes moyens de paiement (voir la
+[déclaration de confidentialité de Microsoft](https://privacy.microsoft.com/fr-fr/privacystatement)).
+Les sections ci-dessous sur les services de Google, les achats Packet Odyssey+ et les publicités ne
+concernent que l'application Android.
+
+### Mode classe (version Windows)
+
+Si tu rejoins une classe avec le code donné par ton professeur (Réglages > Mode classe), le jeu crée
+un compte anonyme (ni e-mail, ni mot de passe) avec Firebase Authentication et envoie à Cloud
+Firestore, dans la classe de ton professeur : le pseudo que tu choisis et, pour chaque niveau terminé,
+ton meilleur résultat (étoiles, actions, temps, indices utilisés). Il lit la séance réglée par ton
+professeur (chapitres du jour, indices, date limite) environ une fois par minute quand le jeu est
+affiché. Seul ton professeur voit ton pseudo et tes résultats, pas les autres élèves. Rien d'autre
+n'est envoyé : ni ton nom, ni tes réseaux, ni tes niveaux. Ton professeur, connecté avec un compte
+Google sur le tableau de bord enseignant, peut te retirer ou supprimer la classe, ce qui supprime ton
+pseudo et tes résultats. Quitter la classe dans le jeu arrête tout envoi. L'établissement ou le
+professeur qui utilise le mode classe décide de ce traitement (suivre le travail de la classe) et
+conserve ces données jusqu'à la suppression de la classe, au plus tard en fin d'année scolaire ;
+Google agit comme sous-traitant (Firebase, serveurs dans l'Union européenne si le projet y est
+créé). Utilise un pseudo, pas ton nom complet.
 
 ## Données stockées sur ton appareil
 
@@ -140,6 +203,16 @@ Le jeu utilise des services de Google, dont le traitement est décrit dans
 
 Nous n'envoyons jamais le contenu de tes réseaux ou de tes niveaux, et nous ne vendons aucune donnée
 personnelle. Les données statistiques sont conservées 2 mois ; les rapports de plantage 90 jours.
+
+## Achats (Packet Odyssey+)
+
+Les achats uniques facultatifs (sans publicités, packs de niveaux avancés) passent par Google Play.
+Le paiement est entièrement géré par Google : nous ne voyons jamais tes moyens de paiement, ton nom
+ni ton adresse e-mail. Le jeu demande à Google Play quels produits possède ton compte Google, garde
+cette liste sur ton appareil pour fonctionner hors ligne et la vérifie de nouveau à chaque
+lancement. Avec « Sans pubs », le service publicitaire n'est pas démarré du tout. Le traitement de
+Google est décrit dans les [conditions de Google Play](https://play.google.com/about/play-terms/) et
+les [règles de confidentialité de Google](https://policies.google.com/privacy?hl=fr).
 
 ## Publicités
 
